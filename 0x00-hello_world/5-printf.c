@@ -3,8 +3,8 @@
  * main - entry point
  * description - use printf,do not use puts
  * parameter - string
+ * Return: 0
  */
-int main(void)
-/* Return: 0 (Success) */
+int main (void)
 {printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0); }
