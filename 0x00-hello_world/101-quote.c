@@ -13,7 +13,7 @@ int main(void)
 {
     const char *quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
     size_t len = strlen(quote);
-    ssize_t bytes_written = write(2, quote, len);
+    size_t bytes_written = write(2, quote, len);
 
     if (bytes_written == len)
     {
