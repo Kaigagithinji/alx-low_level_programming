@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-void _puts_recursion(char *s);
-/**
- * main - check the code
- * return: Always 0.
- */
-int main (void)
 
+void _puts_recursion(char *s)
 {
-	char *memory = s;
-	int _puts_recursion("First, solve the problem. Then, write the code");
-	return(0);
-}	
+ if(*s=='\0')
+ { 
+ _putchar('\n');
 
+ } else { 
+	 _putchar(*s);
+	 s++;
+	 _puts_recursion(s);
+ } 
+}
 	
