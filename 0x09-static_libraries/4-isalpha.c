@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "main.h"
 /**
  *_isalpha - check the the entry to deteminate if is lower or upper

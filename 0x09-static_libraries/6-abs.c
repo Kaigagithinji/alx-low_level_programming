@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "main.h"
 /**
  *_abs - This is a absolute value

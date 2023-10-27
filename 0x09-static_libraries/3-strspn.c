@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "main.h"
 /**
  *_strspn - This is my function
