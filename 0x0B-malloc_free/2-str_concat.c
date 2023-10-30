@@ -14,9 +14,9 @@ char *str_concat(char *s1, char *s2)
 	int index, series_index = 0, size = 0;
 
 	if (s1 == NULL)
-		return "";
+		return ("");
 	if (s2 == NULL)
-		return "";
+		return ("");
 	for (index = 0; s1[index] || s2[index]; index++)
 		size++;
 	series = malloc(sizeof(char) * size);
