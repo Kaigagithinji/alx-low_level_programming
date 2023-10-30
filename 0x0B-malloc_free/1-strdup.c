@@ -3,7 +3,7 @@
 /**
  *_strdup - returns a pointer to a new string 
  *           which is a duplicate of the string.
- *@str - the string to be copied
+ *@str: the string to be copied
  *
  *Return: If str == NULL or insufficient memory is available - NULL.
  *         Otherwise - a pointer to the duplicated string.
