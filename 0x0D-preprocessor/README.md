@@ -1,1 +1,2 @@
-macro
+SIZE 1024
+PI
