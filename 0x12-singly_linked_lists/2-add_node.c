@@ -1,3 +1,8 @@
+/**
+ * File: 2-add_node.c
+ * Author: Kaiga Githinji
+ */
+
 #include "lists.h"
 #include <stdio.h>
 
