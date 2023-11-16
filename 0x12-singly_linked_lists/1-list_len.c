@@ -9,6 +9,8 @@
 /**
  * list_len - function that prints the number of nodes
  * @h: The list_t list
+ *
+ * Return: The number of elements in h
  */
 
 size_t list_len(const list_t *h)
